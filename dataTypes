@@ -1,0 +1,26 @@
+//STRINGS
+const string = "Victoria"
+// console.log(typeof(String))
+
+const emptyString =""
+// console.log(typeof(emptyString))
+
+const stringConcatenation = "Queen"
+// console.log(stringConcatenation + " " + string)
+
+const templateLiteral = `The location of the LFA office is near ${string}`
+console.log({templateLiteral})
+
+//BOOLEANS
+
+
+//NUMBER 
+
+
+console.log(true && false) // will log false
+console.log(3 > 2 || 3 < 2 ) // will log true
+console.log( ( ( "true" || 0 ) && !( false && 3 < 4 )) || ( -8 + 3 )) // will log true
+console.log(false || 3 < 4 || 13) // will log true
+console.log(4 != 5 && !(!(false))) // will log FALSE - the value actually switches from false to true to false, as one of the expressions is false and an && operator needs both sides to be true, the eventual condition will evaluate to false 
+console.log(!(null && undefined)) // will log true
+console.log(true && 3 + 14) // will log true
